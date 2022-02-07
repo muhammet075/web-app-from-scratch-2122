@@ -1,0 +1,180 @@
+:root {
+    --wit: #ffff;
+    --zwart: #000;
+    --paars: #474787;
+    --lichtpaars: #8484cd;
+    --grijs: #999999;
+    --lichtgrijs: #efefef;
+    --donkergrijs: #3d3d3d;
+}
+
+* {
+    font-family: Kanit, Veranda;
+}
+
+body {
+    background-color: var(--lichtgrijs);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    position: relative;
+    width: 453px;
+    height: 264px;
+    text-align: center;
+}
+
+main div:nth-child(1) {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+main div:nth-child(1) section:nth-child(1) {
+    background-color: var(--paars);
+    color: var(--wit);
+    width: 30%;
+}
+
+main div:nth-child(1) section:nth-child(1) img {
+    width: auto;
+    margin-top: 30%;
+}
+
+main div:nth-child(1) section:nth-child(1) h1 {
+    font-size: 1.3em;
+    margin-top: 0px;
+}
+
+main div:nth-child(1) section:nth-child(2) {
+    background-color: var(--wit);
+    width: 70%;
+}
+
+main div:nth-child(1) section:nth-child(2) ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+}
+
+main div:nth-child(1) section:nth-child(2) ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--paars);
+    margin: 0 10px;
+}
+
+main div:nth-child(1) section:nth-child(2) ul li:hover {
+    background-color: var(--lichtpaars);
+    transform: 0.7s;
+}
+
+
+main div:nth-child(1) section:nth-child(2) ul li a {
+    display: block;
+    color: var(--wit);
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-top: 3px;
+}
+
+main div:nth-child(1) section:nth-child(2) button {
+    background-color: var(--donkergrijs);
+    border: 0px;
+    border-radius: 12px;
+    padding: 10px 40px;
+    margin-top: 40px;
+    color: var(--wit);
+    cursor: pointer;
+}
+
+main div:nth-child(1) section:nth-child(2) button:hover {
+    background-color: var(--grijs);
+    transition: 0.7s;
+}
+
+main div:nth-child(2) {
+    background-color: var(--wit);
+    width: 453px;
+    height: 264px;
+    position: absolute;
+    top: 0;
+}
+
+main div:nth-child(2) h2 {
+    color: var(--donkergrijs);
+    margin-top: -15px;
+}
+
+main div:nth-child(2) ul {
+    padding: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 25px;
+}
+
+main div:nth-child(2) ul li {
+    margin: 10px 0;
+}
+
+main div:nth-child(2) ul li img {
+    height: 70px;
+    width: auto;
+}
+
+main div:nth-child(2) button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: none;
+    border: 0px;
+    font-size: 1.5em;
+    color: var(--paars);
+    cursor: pointer;
+}
+
+#skills {
+    opacity: 0;
+    z-index: -99999;
+}
+
+.animatie {
+    animation: popupZien 0.2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popupZien {
+    0% {
+        opacity: 0;
+        z-index: -99999;
+        right: -450px;
+    }
+
+    10% {
+        opacity: 0.3;
+        z-index: 9999;
+        right: -200px;
+    }
+
+    60% {
+        opacity: 0.7;
+        z-index: 9999;
+        right: -100px;
+    }
+
+
+    100% {
+        opacity: 1;
+        z-index: 9999;
+        right: 0px;
+
+    }
+}
