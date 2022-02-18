@@ -1,56 +1,15 @@
 # Web App From Scratch @cmda-minor-web 2021 - 2022
 
-In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API, manipulated and finally shown in the UI of the App. You will learn to apply interface principles when building and testing the interface. With the gained knowledge you will be able to build interactive prototypes, based on a user story and real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
+## Visitekaartje
+<img src="https://i.ibb.co/Z85SsGZ/Schermafbeelding-2022-02-18-om-14-46-50.png" alt="Visite kaartje"/>
 
-## Assignment
+## Team Opdracht
+<img src="https://camo.githubusercontent.com/47b6ecbddf4af37b9c1bc8f0f23d4d2f0dfd53e2691dda1e73facc25018f8683/68747470733a2f2f692e6962622e636f2f6d7476506732542f53636865726d61666265656c64696e672d323032322d30322d30382d6f6d2d31322d35312d34332e706e67" alt="schets"/>
+<img src="https://camo.githubusercontent.com/d4bb65c9d3c771f494f37354058d5a6701394ba7f9045976aafce85d569b6b3f/68747470733a2f2f692e6962622e636f2f6b5851335851582f53636865726d61666265656c64696e672d323032322d30322d30382d6f6d2d31322d35342d31352e706e67" alt="schets"/>
+<img src="https://camo.githubusercontent.com/dbb38e44d3b0216793f95fea3cad3ca2d659eb4018071b1a2be2da2e4f2d853b/68747470733a2f2f692e6962622e636f2f3557767273466d2f53636865726d61666265656c64696e672d323032322d30322d30382d6f6d2d31322d35342d32342e706e67" alt="schets"/>
 
-- [Visitekaartje](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#1-visitekaartje): Ontwerp en maak met HTML, CSS en JS een visitekaartje.
-- [Teampagina](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#2-teampagina): Ontwerp en maak met je team een teampagina waarin je de verschillende visitekaartjes toont.
-- [Single Page App](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md): Design and build a single page web app based on a User Story.
+## Single Page App
 
----
-
-## Program
-
-| Planning | Maandag | Dinsdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1 - Hellooo 🤸](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-1.md) | Introduction + visitekaartje | Teampagina | Teambespreking |
-| [Week 2 - Hello API 🐒](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md) | College + briefing opdracht | College + Work | Feedbackgesprekken |
-| Voorjaarsvakantie |  |  |  |
-| [Week 3 - Refactor 🛠](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-3.md)  | College + work  | College + work | Feedbackgesprekken  |
-| [Week 4 - Wrapping up 🎁](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-4.md)  | College + work  | work | Beoordelingsgesprekken  |
-
-## Best Practices
-
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
-
-## Rubric
-
-Your efforts will be graded using a single point rubric (see below). You will have to pass the criterion (centre column) to pass the course. During the test you will be consulted and will be given feedback on things we think deficient and things we think are an improvement on the criterion.
-
-| Deficiency | Criterion | Improvement |
-|:--|:--|:--|
-|  | *User Interface* - you design, build and test the user interface by applying interface design principles |  |
-|  | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |  |
-|  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
-|  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+### Breakdown schetsen
+<img src="https://i.ibb.co/jrDBhdz/schets1.jpg" alt="schets"/>
+<img src="https://i.ibb.co/9HnwG8K/schets2.jpg" alt="schets"/>
