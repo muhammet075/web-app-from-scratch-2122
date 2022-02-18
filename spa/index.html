@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
+    <script src="https://kit.fontawesome.com/e367b28ca4.js" crossorigin="anonymous"></script>
+
+    <title>CryptoAbi</title>
+</head>
+
+<body>
+    <header>
+
+        <h1><a href="index.html">CryptoAbi</a></h1>
+
+        <ul>
+            <li><button id="belKnop"><i class="fa-solid fa-bell"></i></button></li>
+            <li><button id="zoekenKnop"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+        </ul>
+
+    </header>
+
+    <div class="zoekbalk">
+        <button id="zoekenSluiten"><i class="fa-solid fa-xmark"></i></button>
+        <h2>Search</h2>
+        <input id="zoekVeld" onkeyup="filterOnClass('cryptoGegevens', this.value)">
+        <button id="extraZoeken"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    
+    <div class="favorieten">
+        <button id="sluitFavorieten"><i class="fa-solid fa-xmark"></i></button>
+        <ul>
+            <li>Favoriet 1</li>
+            <li>Favoriet 2</li>
+            <li>Favoriet 3</li>
+            <li>Favoriet 4</li>
+        </ul>
+    </div>
+    
+    <img src="img/container-scheider.svg" alt="Header scheider">
+
+    <main>
+
+        <article>
+            <section>
+                <img src="img/crypto.svg" alt="2 personen met een crypto munt" />
+                <h2>Your CryptoAbi</h2>
+                <p>CryptoAbi helps you with all your crypto solutions. You can easly set a alert push-up on a specifik price on each crypto coin which you choose. We will always send you a notification message when the price of a coin hits the price of your wish.</p>
+                <label>
+                    <button>More about crypto Abi</button>
+                    <button id="coinKnop">Coins <i class="fa-solid fa-caret-right"></i></button>
+                </label>
+            </section>
+        </article>
+
+        <button id="resultatenResetten"><i class="fa-solid fa-filter-circle-xmark"></i></button>
+
+        <div class="cryptoInfo">
+
+            <div class="emptyState">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <img src="img/footer-scheider.svg" alt="Header scheider">
+    <footer>
+        <section>
+            <p>&#169; CryptoAbi - Copyright 2022</p>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
