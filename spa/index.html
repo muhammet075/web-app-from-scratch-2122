@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
     <script src="https://kit.fontawesome.com/e367b28ca4.js" crossorigin="anonymous"></script>
-
+    <script type="module" src="js/app.js"></script>
     <title>CryptoAbi</title>
 </head>
 
@@ -17,8 +17,8 @@
         <h1><a href="index.html">CryptoAbi</a></h1>
 
         <ul>
-            <li><button id="belKnop"><i class="fa-solid fa-bell"></i></button></li>
-            <li><button id="zoekenKnop"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+            <li><button id="belKnop"><a href="#favorite"><i class="fa-solid fa-bell"></i></a></button></li>
+            <li><button id="zoekenKnop"><a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a></button></li>
         </ul>
 
     </header>
@@ -26,20 +26,36 @@
     <div class="zoekbalk">
         <button id="zoekenSluiten"><i class="fa-solid fa-xmark"></i></button>
         <h2>Search</h2>
-        <input id="zoekVeld" onkeyup="filterOnClass('cryptoGegevens', this.value)">
+        <input id="zoekVeld">
         <button id="extraZoeken"><i class="fa-solid fa-magnifying-glass"></i></button>
     </div>
-    
+
     <div class="favorieten">
         <button id="sluitFavorieten"><i class="fa-solid fa-xmark"></i></button>
-        <ul>
-            <li>Favoriet 1</li>
-            <li>Favoriet 2</li>
-            <li>Favoriet 3</li>
-            <li>Favoriet 4</li>
-        </ul>
+        <p class="favorietLijst">
+            You don't have a favorite coin.
+        </p>
     </div>
-    
+
+    <div class="aboutPage">
+        <button id="sluitAbout"><i class="fa-solid fa-xmark"></i></button>
+        <article>
+            <section>
+                <h2>CryptoAbi</h2>
+                <p>CryptoAbi helps you with all your crypto solutions. You can easly set a alert push-up on a specifik price on each crypto coin which you choose. We will always send you a notification message when the price of a coin hits the price of your wish..</p>
+            </section>
+
+            <section>
+                <img src="img/bitcoin.svg" alt="Image of a bitcoin" />
+            </section>
+
+            <section>
+                <h3>How it works?</h3>
+                <p>Easy! Click on the search icon on top of the app. Write your favorite coin and click on the search button. Then click on yout coin on the search results. Then you will see the current price, market cap, change and the last update time. If you like it, you can add the coin on your favorite list. Press on the closing button, on the top. Then press on the bell icon, on the corner.</p>
+            </section>
+        </article>
+    </div>
+
     <img src="img/container-scheider.svg" alt="Header scheider">
 
     <main>
@@ -48,10 +64,10 @@
             <section>
                 <img src="img/crypto.svg" alt="2 personen met een crypto munt" />
                 <h2>Your CryptoAbi</h2>
-                <p>CryptoAbi helps you with all your crypto solutions. You can easly set a alert push-up on a specifik price on each crypto coin which you choose. We will always send you a notification message when the price of a coin hits the price of your wish.</p>
+                <p>CryptoAbi helps you with all your crypto solutions. Check the current course and price of your favorite crypto coin. Add one of them on to your favorites.</p>
                 <label>
-                    <button>More about crypto Abi</button>
-                    <button id="coinKnop">Coins <i class="fa-solid fa-caret-right"></i></button>
+                    <button id="openAbout"><a href="#about">More about crypto Abi</a></button>
+                    <button id="coinKnop"><a href="#coins">Coins <i class="fa-solid fa-caret-right"></i></a></button>
                 </label>
             </section>
         </article>
@@ -119,12 +135,9 @@
     <img src="img/footer-scheider.svg" alt="Header scheider">
     <footer>
         <section>
-            <p>&#169; CryptoAbi - Copyright 2022</p>
+            <p>&#169; CryptoAbi - Copyright <span id="huidigJaar">jaar</span></p>
         </section>
     </footer>
 
-    <script type="text/javascript" src="js/script.js"></script>
-
 </body>
-
 </html>
