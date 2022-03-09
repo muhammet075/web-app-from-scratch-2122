@@ -6,7 +6,6 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 
 ## Interface Elementen
 <img src="https://i.ibb.co/NWDL289/interface-elementen.png" alt="Interface elementen van de app" width="600px"/>
-<br/>
 
 ## Features List 🖇
 * Zoeken & Filteren
