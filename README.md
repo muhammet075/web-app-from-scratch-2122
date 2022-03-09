@@ -1,6 +1,6 @@
 # Web App From Scratch @cmda-minor-web 2021 - 2022
 
-## Single Page App - CryptoAbi test
+## Single Page App - CryptoAbi
 
 ### Breakdown schetsen
 
