@@ -22,13 +22,29 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 * <a href="https://storyset.com/">Storyset Illustrations</a>
 <br/>
 
+## Activity Diagram
+komt nog...
+<br/>
+
+
+## Installeren
+1. Clone de repository<br/>
+```
+  git clone https://github.com/muhammet075/web-app-from-scratch-2122/
+```
+
+2. Navigeer naar het project<br/>
+```
+ /spa/index.html
+```
+
+3. Open het met je localhost of je text editor<br/>
+<br/>
+
 ## Live Demo 🚀
 <a href="https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html">https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html</a>
 <br/>
 
-## Activity Diagram
-komt nog...
-<br/>
 
 ## Breakdown schetsen
 <img src="https://i.ibb.co/jrDBhdz/schets1.jpg" alt="schets" width="400px"/>
