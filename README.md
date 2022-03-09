@@ -25,7 +25,7 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 ## Activity Diagram
 komt nog...
 <br/>
-
+<br/>
 
 ## Installeren
 1. Clone de repository<br/>
