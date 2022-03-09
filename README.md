@@ -42,12 +42,13 @@ komt nog...
 
 
 
+# Overige opdrachten voor WAFS
 
-## Visitekaartje
+### Visitekaartje
 
 <img src="https://i.ibb.co/Z85SsGZ/Schermafbeelding-2022-02-18-om-14-46-50.png" alt="Visite kaartje" width="400px"/>
 
-## Team Opdracht
+### Team Opdracht
 
 <img src="https://camo.githubusercontent.com/47b6ecbddf4af37b9c1bc8f0f23d4d2f0dfd53e2691dda1e73facc25018f8683/68747470733a2f2f692e6962622e636f2f6d7476506732542f53636865726d61666265656c64696e672d323032322d30322d30382d6f6d2d31322d35312d34332e706e67" alt="schets" width="400px"/>
 <img src="https://camo.githubusercontent.com/d4bb65c9d3c771f494f37354058d5a6701394ba7f9045976aafce85d569b6b3f/68747470733a2f2f692e6962622e636f2f6b5851335851582f53636865726d61666265656c64696e672d323032322d30322d30382d6f6d2d31322d35342d31352e706e67" alt="schets" width="400px"/>
