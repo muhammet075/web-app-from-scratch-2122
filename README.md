@@ -2,6 +2,28 @@
 
 ## Single Page App - CryptoAbi
 
+### Dependencies
+* Pure HTML, CSS & JS
+* <a href="http://projects.jga.me/routie/">Routie</a>
+* <a href="https://fontawesome.com/">Font Awesome</a>
+* <a href="https://www.coingecko.com/en/api/documentation">Coingecko Crypto API</a>
+* <a href="https://fonts.google.com/specimen/Kanit">Google Fonts - Kanit </a>
+* <a href="https://storyset.com/">Storyset illustrations</a>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Breakdown schetsen
 
 <img src="https://i.ibb.co/jrDBhdz/schets1.jpg" alt="schets" width="400px"/>
