@@ -2,6 +2,15 @@
 
 ## Single Page App - CryptoAbi
 
+###CryptoAbi
+CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 grootste crypto valuta's. De gebruiker kan zoeken voor een specifieke coin en de gebruiker klikt dan op de coin waar de gebruiker naar op zoek was. Vervolgens ziet de gebruiker de huidige prijs, de huidige market cap, de huidige koers wijziging, de huidige laatste update en de afkorting naam van de coin. De gebruiker kan besluiten om de coin toe te voegen aan de favorietenlijst. 
+
+### Features list 🖇
+* Zoeken & Filteren
+* Crypto gegevens bekijken
+* Favoriet toevoegen*
+<br/>
+
 ### Dependencies
 * Pure HTML, CSS & JS
 * <a href="http://projects.jga.me/routie/">Routie - Hash Router</a>
@@ -10,18 +19,15 @@
 * <a href="https://fonts.google.com/specimen/Kanit">Google Fonts - Kanit </a>
 * <a href="https://storyset.com/">Storyset Illustrations</a>
 <br/>
-<br/>
 
 ### Live Demo 🚀
 <a href="https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html">https://muhammet075.github.io/web-app-from-scratch-2122/spa/index.html</a>
-<br/>
 <br/>
 
 ### Breakdown schetsen
 
 <img src="https://i.ibb.co/jrDBhdz/schets1.jpg" alt="schets" width="400px"/>
 <img src="https://i.ibb.co/9HnwG8K/schets2.jpg" alt="schets" width="300px"/>
-<br/>
 <br/>
 
 
