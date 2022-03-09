@@ -4,11 +4,11 @@
 
 ### Dependencies
 * Pure HTML, CSS & JS
-* <a href="http://projects.jga.me/routie/">Routie</a>
+* <a href="http://projects.jga.me/routie/">Routie - Hash Router</a>
 * <a href="https://fontawesome.com/">Font Awesome</a>
 * <a href="https://www.coingecko.com/en/api/documentation">Coingecko Crypto API</a>
 * <a href="https://fonts.google.com/specimen/Kanit">Google Fonts - Kanit </a>
-* <a href="https://storyset.com/">Storyset illustrations</a>
+* <a href="https://storyset.com/">Storyset Illustrations</a>
 <br/>
 
 
