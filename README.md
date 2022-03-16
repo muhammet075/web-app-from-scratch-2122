@@ -51,7 +51,8 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 <img src="https://i.ibb.co/9HnwG8K/schets2.jpg" alt="schets" width="300px"/>
 <br/>
 
-
+## Bronnen
+<a href="https://github.com/muhammet075/web-app-from-scratch-2122/wiki/Bronnen">Bronnenlijst</a>
 
 
 
