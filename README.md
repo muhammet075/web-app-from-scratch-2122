@@ -23,7 +23,8 @@ CryptoAbi is een app waarbij de gebruiker informatie kan ophalen van de top 200 
 <br/>
 
 ## Activity Diagram
-<img src="https://i.ibb.co/NrGjkd8/activitydiagram.png" alt="Activity Diagram"/>
+<img src="https://i.ibb.co/gTHmsBZ/flow1.png" alt="Activity Diagram" height="400px"/>
+<img src="https://i.ibb.co/wzNmsLT/flow2.png" alt="Activity Diagram" height="400px"/>
 <br/>
 <br/>
 
